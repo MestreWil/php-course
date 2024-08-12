@@ -35,3 +35,9 @@ echo '<p>Spaceship</p><hr>';
 var_dump(5 <=> 3); // saber se um numero é maior que outro *retorna 1 se o numero a esquerda for maior que o da direita
 var_dump(50 <=> 50); // *retorna 0 se os numeros forem iguais
 var_dump( 5 <=> 50);// *retorna -1 se o numero da direita for maior que o da esquerda
+
+echo '<p>Valores podem ser V ou F</p><hr>';
+var_dump(!!5); //utilizace a dupla negacao para verificar se um numero é verdadeiro ou nao
+var_dump(!!0);
+var_dump(!!'');
+var_dump(!!" ");
