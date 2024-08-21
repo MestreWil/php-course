@@ -160,6 +160,11 @@
                                    Desafio Op. Lógicos
                                    </a>
                               </li>
+                              <li>
+                              <a href="exercicio.php?dir=controle&file=operador_ternario">
+                                   Operador Ternário
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
