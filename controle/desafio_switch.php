@@ -27,13 +27,17 @@ switch ($_POST['conversao']){
     case 'metro-km':
         $resultado = $_POST['param']/1000;
         echo "$_POST[param] equivale a $resultado Km";
+        break;
     case 'km-metro':
         $resultado = $_POST['param']*1000;
         echo "$_POST[param] equivale a $resultado M";
+        break;
     case 'km-milha':
         $resultado = $_POST['param']/1.6;
         echo "$_POST[param] equivale a $resultado Milhas";
+        break;
     case 'km-milha':
         $resultado = $_POST['param']*1.6;
         echo "$_POST[param] equivale a $resultado Km";
+        break;
 }
