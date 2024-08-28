@@ -39,16 +39,16 @@ switch($_POST['conversao']){
         break;
     
     case 'metro-km':
-        $distancia = $paremetro * FATOR_METRO_KM;
-        $msg = "$paremetro Metros = $distancia km";
+        $distancia = $parametro / FATOR_METRO_KM;
+        $msg = "$parametro Metros = $distancia km";
         break;
     case 'km-metro':
-        $distancia = $parametro / FATOR_METRO_KM;
+        $distancia = $parametro * FATOR_METRO_KM;
         $msg = "$parametro Km = $distancia metros";
         break;
     
     default:
-        $mensagem = "Nenhum valor calculado";
+        $msg = "Nenhum valor calculado";
     
 }
 echo "<br>$msg<br>";
