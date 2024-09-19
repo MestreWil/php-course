@@ -200,6 +200,16 @@
                                    Operações com arrays
                                    </a>
                               </li>
+                              <li>
+                              <a href="exercicio.php?dir=array&file=multi">
+                                   Arrays multidimencionais 
+                                   </a>
+                              </li>
+                              <li>
+                              <a href="exercicio.php?dir=array&file=constantes">
+                                   Arrays Constantes
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
