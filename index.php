@@ -210,6 +210,11 @@
                                    Arrays Constantes
                                    </a>
                               </li>
+                              <li>
+                              <a href="exercicio.php?dir=array&file=get&nome=William">
+                                   $_GET
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
