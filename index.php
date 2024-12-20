@@ -215,6 +215,15 @@
                                    $_GET
                                    </a>
                               </li>
+                              <li>
+                              <a href="exercicio.php?dir=array&file=post">
+                                   $_POST
+                                   </a>
+                              </li>
+                              <a href="exercicio.php?dir=array&file=comparacao">
+                                   Comparação de Arrays
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
