@@ -262,6 +262,11 @@
                                         While/Do While
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=repeticoes&file=desafio_tabela">
+                                        Desafio Tabela
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
