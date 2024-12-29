@@ -279,7 +279,12 @@
                          <ul>
                               <li>
                                    <a href="exercicio.php?dir=funcoes&file=escopo">
-                                        Escopo
+                                        Função & Escopo
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="exercicio.php?dir=funcoes&file=args_retorno">
+                                        Args & Retorno
                                    </a>
                               </li>
                          </ul>
