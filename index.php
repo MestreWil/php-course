@@ -307,6 +307,11 @@
                                         Usando Tipos
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=funcoes&file=funcoes_anonimas">
+                                        Funções Anonimas
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
