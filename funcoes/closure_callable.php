@@ -19,6 +19,6 @@ function soma2($a = null, $b = null){
 // hoje ela não é callable
 echo soma2(2, 3);
 
-echo (is_callable(soma2()) ? 'Sim' : 'Não') . "<br>";
+echo (is_callable('soma2') ? 'Sim' : 'Não') . "<br>";
 
 var_dump($soma1);
