@@ -352,6 +352,11 @@
                                         Desafio Classe
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">
+                                        Construtor & Destrutor
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
