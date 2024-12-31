@@ -3,12 +3,12 @@
 <form action="#" method="post">
     <div class="entrada">
         <label for="linhas"> Linhas:</label><br>
-        <input type="number" value=<?= $_POST['linhas'] ?> id="linhas" name="linhas">
+        <input type="number" value=<?= isset($_POST['linhas']) ? $_POST['linhas'] : ''; ?> id="linhas" name="linhas">
         
     </div>
     <div class="entrada">
     <label for="colunas">Colunas:</label><br>
-    <input type="number" value=<?= $_POST['colunas'] ?> id="colunas" name="colunas">
+    <input type="number" value=<?= isset($_POST['colunas']) ? $_POST['colunas'] : ''; ?> id="colunas" name="colunas">
     </div>
     <button>Executar</button>
 </form>
