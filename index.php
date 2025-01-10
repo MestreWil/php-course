@@ -367,6 +367,11 @@
                                         Visibilidade
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=classes_objetos&file=static">
+                                        Membros Estáticos
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
