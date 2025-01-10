@@ -372,6 +372,11 @@
                                         Membros Estáticos
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=classes_objetos&file=interface">
+                                        Interface
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
