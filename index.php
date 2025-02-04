@@ -377,6 +377,11 @@
                                         Interface
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=classes_objetos&file=abstract">
+                                        Classe Abstrata
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
