@@ -387,6 +387,11 @@
                                         Desafio dos 7 Erros
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=classes_objetos&file=final">
+                                        Classe Final
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
