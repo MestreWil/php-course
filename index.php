@@ -432,6 +432,16 @@
                                         Include VS Requeire
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=includes&file=require_return">
+                                        Require & Return
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="exercicio.php?dir=includes&file=include_once_arquivo">
+                                        Include & Require Once
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
