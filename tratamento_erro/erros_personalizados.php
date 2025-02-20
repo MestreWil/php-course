@@ -6,7 +6,7 @@ class FaixaEteriaException extends Exception
 {
     public function __construct($massage, $code = 0, $previus = null)
     {
-        echo "Errp personalizado: $massage<br>";
+        echo "Erro personalizado: $massage<br>";
         parent::__construct($massage, $code, $previus);
     }
     
