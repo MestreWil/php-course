@@ -477,6 +477,16 @@
                                         Erros Personalizados
                                    </a>
                               </li>
+                              <li>
+                                   <a href="exercicio.php?dir=tratamento_erro&file=desafio_intdiv">
+                                        Desafio Intdiv
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="exercicio.php?dir=tratamento_erro&file=gerenciador_erro">
+                                        Error Handler
+                                   </a>
+                              </li>
                          </ul>
                     </div>
                </nav>
