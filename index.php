@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if(!$_SESSION['usuario'])
+{
+     header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,6 +23,9 @@
           <h1>Curso PHP</h1>
           <h2>Índice dos exercícios</h2>
      </header>
+     <nav class="navegacao">
+
+     </nav>
      <main class="princial">
           <div class="conteudo">
                <nav class="modulos">
@@ -485,6 +497,21 @@
                               <li>
                                    <a href="exercicio.php?dir=tratamento_erro&file=gerenciador_erro">
                                         Error Handler
+                                   </a>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="modulo vermelho">
+                         <h3>Sessão</h3>
+                         <ul>
+                              <li>
+                                   <a href="exercicio.php?dir=sessao&file=basico_sessao">
+                                        Básico Sessão
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="exercicio.php?dir=sessao&file=gerenciador_sessao">
+                                        Gerenciar Sessão
                                    </a>
                               </li>
                          </ul>
