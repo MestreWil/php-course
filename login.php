@@ -1,8 +1,9 @@
 <?php session_start(); 
-$email = $_POST['email'];
-$senha = $_POST['senha'];
+$email = $_POST['email'] ?? null;
+$senha = $_POST['senha'] ?? null;
 
-if($_POST['email']){
+if(isset($_POST['email'])){
+     
      $usuarios = [
           [
                "nome" => "Aluno Cod3r",
@@ -13,6 +14,11 @@ if($_POST['email']){
                "nome" => "Outro Aluno",
                "email" => "outro@email.com.br",
                "senha" => "654321",
+          ],
+          [
+               "nome" => "William",
+               "email" => "williamtavaresdemoura@gmail.com",
+               "senha" => "123456",
           ]
      ];
 
@@ -25,7 +31,9 @@ if($_POST['email']){
           {
                $_SESSION['erros'] = null;
                $_SESSION['usuario'] = $usuario['nome'];
-
+               // Definição de cookie para tempo logado na página
+               $exp = time() + 60 *60 *24 *30;
+               setcookie('usuario', $usuario['nome'], $exp);
                header("Location: index.php");
           }
      }
@@ -56,7 +64,7 @@ if($_POST['email']){
      <main class="principal">
           <div class="conteudo">
           <h3>Identifique-se</h3>
-               <?php if($_SESSION['erros']): ?>
+               <?php if(isset($_SESSION['erros'])): ?>
 
                <div class="erros">
                     <?php foreach($_SESSION['erros'] as $erro):?>

@@ -1,3 +1,7 @@
+<?php
+session_start();
+include_once('cookie_usuario.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +18,10 @@
           <h2>Visualização do Exercício</h2>
      </header>
      <nav class="navegacao">
+          <span class='usuario'>Usuário: <?= $_SESSION['usuario'] ?></span>
           <a href=<?="{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Sem formatação</a>
-          <a href="index.php" class="vermelho">Voltar</a>
+          <a href="index.php" class="azul">Voltar</a>
+          <a href="logout.php" class="vermelho">Logout</a>
      </nav>
      <main class="princial">
           <div class="conteudo">

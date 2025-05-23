@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include_once('cookie_usuario.php');
 if(!$_SESSION['usuario'])
 {
      header('Location: login.php');
@@ -15,6 +15,7 @@ if(!$_SESSION['usuario'])
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="assets/css/estilo.css">
+     <link rel="stylesheet" href="assets/css/exercicio.css">
      <title>Curso PHP</title>
 </head>
 
@@ -24,7 +25,8 @@ if(!$_SESSION['usuario'])
           <h2>Índice dos exercícios</h2>
      </header>
      <nav class="navegacao">
-
+          <span class='usuario'>Usuário: <?= $_SESSION['usuario'] ?></span>
+          <a href="logout.php" class="vermelho">Logout</a>
      </nav>
      <main class="princial">
           <div class="conteudo">
