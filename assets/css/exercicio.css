@@ -16,6 +16,7 @@ body.exercicio {
 .navegacao > a.verde { background-color: #4caf50;}
 
 .navegacao > a.vermelho { background-color: #f44336;}
+.navegacao > a.azul { background-color: rgb(0, 128, 255);}
 
 .conteudo {
      font-size: 2rem;
