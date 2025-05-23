@@ -23,6 +23,10 @@ label, input, button {
 button {
     color: #fff;
     background-color: #228b22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .conteudo {
