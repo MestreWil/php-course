@@ -540,8 +540,12 @@ if(!$_SESSION['usuario'])
                                    <a href="exercicio.php?dir=api&file=ler_arquivo">
                                         Ler Arquivo
                                    </a>
-                              </li>
-                              
+                              </li>                             
+                              <li>
+                                   <a href="exercicio.php?dir=api&file=upload_arquivo">
+                                        Upload Arquivo
+                                   </a>
+                              </li>                             
                          </ul>
                     </div>
                </nav>
