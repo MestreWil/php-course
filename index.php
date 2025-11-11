@@ -546,7 +546,21 @@ if(!$_SESSION['usuario'])
                                         Upload Arquivo
                                    </a>
                               </li>                             
+                              <li>
+                                   <a href="exercicio.php?dir=api&file=download_arquivo">
+                                        Download Arquivo
+                                   </a>
+                              </li>                             
                          </ul>
+                    </div>
+                         <div class="modulo vermelho">
+                         <h3>Formulário</h3>
+                         <ul>
+                              <li>
+                                   <a href="exercicio.php?dir=formulario&file=formulario">
+                                        Datas #01
+                                   </a>
+                              </li>
                     </div>
                </nav>
           </div>
